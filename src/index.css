@@ -1,1 +1,333 @@
-.signinform__form{display:flex;flex-direction:column;max-width:400px;width:100%;margin-bottom:20px;margin-left:auto;margin-right:auto}.signinform__input{margin:10px auto;padding:0 10px;height:50px;font-size:20px;border-radius:12px;width:100%;max-width:380px}.signinform__button{background-color:#1fc90c;color:#fff;font-size:20px;border-radius:12px;height:50px;width:100%;max-width:100px;margin-left:auto;margin-top:10px}.signinform__error{color:red}.signinscreen__header-wrapper{width:100%;text-align:center;display:inline}.signinscreen__header{font-size:30px}.signinscreen__form-wrapper{border-radius:30px;margin:0 auto;margin-top:50px;max-width:600px;padding:20px 20px 50px 20px;background-color:#d7d7d7}.signinscreen__links{color:#616df4;font-size:22px;max-width:400px;margin:0 auto;display:flex;justify-content:space-between}.signinscreen__link{display:inline}.signupform__form{display:flex;flex-direction:column;max-width:400px;width:100%;margin-bottom:20px;margin-left:auto;margin-right:auto}.signupform__input{margin:10px auto;padding:0 10px;height:50px;font-size:20px;border-radius:12px;width:100%;max-width:380px}.signupform__button{background-color:#1fc90c;color:#fff;font-size:20px;border-radius:12px;height:50px;width:100%;max-width:100px;margin-left:auto;margin-top:10px}.signupscreen__header-wrapper{width:100%;text-align:center;display:inline}.signupscreen__header{font-size:30px}.signupscreen__form-wrapper{border-radius:30px;margin:0 auto;margin-top:50px;max-width:600px;padding:20px 20px 50px 20px;background-color:#d7d7d7}.signupscreen__links{color:#616df4;font-size:22px;max-width:400px;margin:0 auto;display:flex;justify-content:space-between}.signupscreen__link{display:inline}.resetpassform__form{display:flex;flex-direction:column;max-width:400px;width:100%;margin-bottom:20px;margin-left:auto;margin-right:auto}.resetpassform__input{margin:10px auto;padding:0 10px;height:50px;font-size:20px;border-radius:12px;width:100%;max-width:380px}.resetpassform__button{background-color:#1fc90c;color:#fff;font-size:20px;border-radius:12px;height:50px;width:100%;max-width:100px;margin-left:auto;margin-top:10px}.resetsassscreen__header-wrapper{width:100%;text-align:center;display:inline}.resetsassscreen__header{font-size:30px}.resetsassscreen__form-wrapper{border-radius:30px;margin:0 auto;margin-top:50px;max-width:600px;padding:20px 20px 50px 20px;background-color:#d7d7d7}.resetsassscreen__links{color:#616df4;font-size:22px;max-width:400px;margin:0 auto;display:flex;justify-content:space-between}.resetsassscreen__link{display:inline}
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+main {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+a {
+  background-color: transparent;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+progress {
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+[type='checkbox'],
+[type='radio'] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+  height: auto;
+}
+[type='search'] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+details {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+template {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+.signinform__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signinform__input {
+  margin: 10px auto;
+  padding: 0 10px;
+  height: 50px;
+  font-size: 20px;
+  width: 100%;
+  max-width: 380px;
+}
+
+.signinform__button {
+  background-color: #16eb3a;
+
+  color: rgb(250, 250, 250);
+  font-size: 20px;
+  height: 50px;
+  width: 100%;
+  max-width: 100px;
+  margin-left: auto;
+  margin-top: 10px;
+}
+.signinform__error {
+  color: red;
+}
+.signinscreen__header-wrapper {
+  width: 100%;
+  text-align: center;
+  display: inline;
+}
+.signinscreen__wrapper {
+  height: 750px;
+  background: url(./assets/gardient.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signinscreen__header {
+  font-size: 30px;
+}
+.signinscreen__form-wrapper {
+  margin: 0 auto;
+  border: 4px solid SandyBrown;
+  width: 600px;
+  padding: 20px 20px 50px 20px;
+  background-color: #ffffff;
+}
+.signinscreen__links {
+  color: #2525e4;
+  font-size: 22px;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.signinscreen__link {
+  display: inline;
+}
+.signupscreen__wrapper {
+  height: 750px;
+  background: url(./assets/gardient.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signupform__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signupform__input {
+  margin: 10px auto;
+  padding: 0 10px;
+  height: 50px;
+  font-size: 20px;
+
+  width: 100%;
+  max-width: 380px;
+}
+.signupform__button {
+  background-color: #1fc90c;
+  color: #fff;
+  font-size: 20px;
+  height: 50px;
+  width: 100%;
+  max-width: 100px;
+  margin-left: auto;
+  margin-top: 10px;
+}
+.signupscreen__header-wrapper {
+  width: 100%;
+  text-align: center;
+  display: inline;
+}
+.signupscreen__header {
+  font-size: 30px;
+}
+.signupscreen__form-wrapper {
+  border: 4px solid SandyBrown;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 600px;
+  padding: 20px 20px 50px 20px;
+  background-color: #ffffff;
+}
+.signupscreen__links {
+  color: #616df4;
+  font-size: 22px;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.signupscreen__link {
+  display: inline;
+}
+.resetpassform__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.resetpassform__input {
+  margin: 10px auto;
+  padding: 0 10px;
+  height: 50px;
+  font-size: 20px;
+  width: 100%;
+  max-width: 380px;
+}
+.resetpassform__button {
+  background-color: #1fc90c;
+  color: #fff;
+  font-size: 20px;
+  height: 50px;
+  width: 100%;
+  max-width: 100px;
+  margin-left: auto;
+  margin-top: 10px;
+}
+.resetsassscreen__header-wrapper {
+  width: 100%;
+  text-align: center;
+  display: inline;
+}
+.resetsassscreen__header {
+  font-size: 30px;
+}
+.resetsassscreen__wrapper {
+  height: 750px;
+  background: url(./assets/gardient.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resetsassscreen__form-wrapper {
+  border: 4px solid SandyBrown;
+  margin: 0 auto;
+  width: 800px;
+  padding: 20px 20px 50px 20px;
+  background-color: #ffffff;
+}
+.resetsassscreen__links {
+  color: #616df4;
+  font-size: 22px;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.resetsassscreen__link {
+  display: inline;
+}
