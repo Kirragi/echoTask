@@ -1,0 +1,27 @@
+.signupscreen__header-wrapper {
+  width: 100%;
+  text-align: center;
+  display: inline;
+}
+.signupscreen__header {
+  font-size: 30px;
+}
+.signupscreen__form-wrapper {
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 600px;
+  padding: 20px 20px 50px 20px;
+  background-color: rgb(215, 215, 215);
+}
+.signupscreen__links {
+  color: rgb(97, 109, 244);
+  font-size: 22px;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.signupscreen__link {
+  display: inline;
+}

@@ -1,0 +1,32 @@
+.signinform__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signinform__input {
+  margin: 10px auto;
+  padding: 0 10px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 380px;
+}
+.signinform__button {
+  background-color: rgb(31, 201, 12);
+  color: #fff;
+  font-size: 20px;
+  border-radius: 12px;
+  height: 50px;
+  width: 100%;
+  max-width: 100px;
+  margin-left: auto;
+  margin-top: 10px;
+}
+.signinform__error {
+  color: rgb(255, 0, 0);
+}

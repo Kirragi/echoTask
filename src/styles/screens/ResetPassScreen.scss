@@ -1,0 +1,27 @@
+.resetsassscreen__header-wrapper {
+  width: 100%;
+  text-align: center;
+  display: inline;
+}
+.resetsassscreen__header {
+  font-size: 30px;
+}
+.resetsassscreen__form-wrapper {
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 600px;
+  padding: 20px 20px 50px 20px;
+  background-color: rgb(215, 215, 215);
+}
+.resetsassscreen__links {
+  color: rgb(97, 109, 244);
+  font-size: 22px;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.resetsassscreen__link {
+  display: inline;
+}
